@@ -1,0 +1,56 @@
+.navItems {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
+  gap: 5%;
+  background-color: white;
+}
+
+.bookstore {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0290ff;
+}
+
+.booksText {
+  font-family: Montserrat, sans-serif;
+  color: #121212;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+a:active {
+  color: red;
+}
+
+.categories {
+  font-family: Montserrat, sans-serif;
+  color: #121212;
+  margin-right: auto;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+}
+
+.faUser {
+  color: #0290ff;
+}
