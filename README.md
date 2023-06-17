@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/global_minbar.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Math Magician</b></h3>
+  <h3><b>Bookstore</b></h3>
 
 </div>
 
@@ -59,9 +59,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magician] <a name="about-project"></a>
+# 📖 [Bookstore] <a name="about-project"></a>
 
-**[Math Magician]** This is react full website that carries out basic mathematical calculations. It also has a calculate quote. The site has three pages rendered using SPA in react
+**[Math Magician]** This react project objective is to design the structure of a bookstore.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -80,8 +80,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[ React Demo Logo ]**
-- **[ Render deployment ]**
+- **[ Use react routers ]**
+- **[ Design the structute using SPA ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -107,7 +107,7 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder. Use the command: git clone https://github.com/devalibello/my-react-app.git
+Clone this repository to your desired folder. Use the command: git clone https://github.com/devalibello/bookstore.git
 
 ### Install
 
@@ -174,8 +174,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Linters for react and CSS are fully installed]**
-- [ ] **[Add general styling to the website]**
+- [ ] **[Implement the logic for users to add books]**
+- [ ] **[Add the categories section]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
