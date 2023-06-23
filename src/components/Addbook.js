@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { appendBooks } from '../redux/books/booksSlice';
+import { addBooks } from '../redux/books/booksSlice';
 import style from '../styles/Addbook.module.css';
 
 const Addbook = () => {
@@ -18,7 +18,7 @@ const Addbook = () => {
       author: authorName,
       category: 'Nonfiction',
     };
-    dispatch(appendBooks(newBook));
+    dispatch(addBooks(newBook));
     setBookTitle('');
     setAuthorName('');
   };

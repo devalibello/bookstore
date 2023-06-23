@@ -1,8 +1,10 @@
+// import { createAsyncThunk } from '@reduxjs/toolkit';
+import { useEffect } from 'react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import { useSelector, useDispatch } from 'react-redux';
 import 'react-circular-progressbar/dist/styles.css';
 import style from '../styles/Category.module.css';
-import { removeBooks } from '../redux/books/booksSlice';
+import { removeBook, fetchBooks } from '../redux/books/booksSlice';
 
 const progressbarStyles = buildStyles({
   pathColor: '#0290ff',
@@ -10,16 +12,27 @@ const progressbarStyles = buildStyles({
 });
 
 const Category = () => {
-  const { books } = useSelector((state) => state.book);
+  const books = useSelector((store) => store.book.books);
+
   const dispatch = useDispatch();
 
   const deleteBook = (id) => {
-    dispatch(removeBooks(id));
+    dispatch(removeBook(id));
   };
+
+  useEffect(() => {
+    dispatch(fetchBooks());
+  });
+
+  const content = [];
+  Object.keys(books).map((key) => {
+    const bookDetails = { ...books[key][0], item_id: key };
+    return (content.push(bookDetails));
+  });
 
   return (
     <>
-      {books.map((element) => (
+      {content.map((element) => (
         <div className={style.booksSection} key={element.item_id}>
           <section className={style.bookDetails}>
             <ul className={style.bookType}>
