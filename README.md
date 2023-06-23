@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Bookstore] <a name="about-project"></a>
 
-**[Math Magician]** This react project objective is to design the structure of a bookstore.
+**[Math Magician]** This is a bookstore app that is designed using react/react.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,7 +81,9 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[ Use react routers ]**
-- **[ Design the structute using SPA ]**
+- **[ API calls for book management ]**
+- **[ Uses reduxToolkit]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -202,7 +204,7 @@ If you like this project, kindly share my github repo with your friends and foll
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the developers of react.
+I would like to thank the developers of react/redux toolkit and also bookstore API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
