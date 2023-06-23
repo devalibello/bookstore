@@ -30,6 +30,11 @@
   background-color: var(--white-two);
 }
 
+.bookInput:hover,
+.optionField:hover {
+  border: 0.5px solid #cecdcd;
+}
+
 .optionField {
   width: 17.813rem;
   height: 2.4rem;
@@ -47,4 +52,5 @@
   background-color: #0290ff;
   color: white;
   border: #0290ff;
+  cursor: pointer;
 }
