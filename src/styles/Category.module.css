@@ -4,6 +4,7 @@
   padding: 2%;
   display: flex;
   flex-direction: column;
+
   /* align-items: center; */
   border: solid 1px #e8e8e8;
   background-color: white;
@@ -209,4 +210,49 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bookType {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+
+  }
+
+  .bookDetails {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .booksSection {
+    margin: 4%;
+    padding: 2%;
+    display: flex;
+    border: solid 1px #e8e8e8;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .chapterDetails {
+    display: flex;
+    gap: 7px;
+    align-items: flex-start;
+  }
+
+  .percentSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    /* width: 20%; */
+  }
+
+  .bookName {
+    max-width: 160px;
+  }
 }

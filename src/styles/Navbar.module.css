@@ -41,7 +41,7 @@ a:active {
   font-family: Montserrat, sans-serif;
   color: #121212;
   font-size: 60%;
-  /* margin-right: auto; */
+  margin-right: auto;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -51,4 +51,40 @@ a:active {
 
 .faUser {
   color: #0290ff;
+}
+
+@media screen and (min-width: 768px){
+  .bookstore {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0290ff;
+  }
+
+  .categories {
+    font-family: Montserrat, sans-serif;
+    color: #121212;
+    font-size: 100%;
+    margin-right: auto;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.9px;
+  }
+
+  .booksText {
+    font-family: Montserrat, sans-serif;
+    color: #121212;
+    font-weight: normal;
+    font-size: 100%;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.9px;
+  }
 }
