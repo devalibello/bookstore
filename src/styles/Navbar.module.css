@@ -1,17 +1,15 @@
 .navItems {
   display: flex;
-  align-items: center;
-  padding: 0.7rem;
-  padding-right: 6rem;
-  padding-left: 6rem;
+  padding: 2%;
   gap: 5%;
   background-color: white;
+  align-items: center;
 }
 
 .bookstore {
   font-family: Montserrat, sans-serif;
-  font-size: 1.875rem;
   font-weight: bold;
+  font-size: 100%;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -22,8 +20,8 @@
 .booksText {
   font-family: Montserrat, sans-serif;
   color: #121212;
-  font-size: 0.813rem;
   font-weight: normal;
+  font-size: 60%;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -42,8 +40,8 @@ a:active {
 .categories {
   font-family: Montserrat, sans-serif;
   color: #121212;
-  margin-right: auto;
-  font-size: 0.813rem;
+  font-size: 60%;
+  /* margin-right: auto; */
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;

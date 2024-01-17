@@ -57,7 +57,6 @@ const Category = () => {
               <li className={style.completed}>completed</li>
             </ul>
           </section>
-          <div className={style.percentSeperator}>&#124;</div>
           <section className={style.chapterSection}>
             <ul className={style.chapterDetails}>
               <li className={style.CurrentChapter}>CURRENT CHAPTER</li>
